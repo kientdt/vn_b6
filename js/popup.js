@@ -49,7 +49,7 @@ function one() {
     if (j > 0) {
         for (var i = 1; i <= j; i++) {
             n = n + a[i]
-            if (i == 48) {
+            if (i == 42) {
                 document.f.txt.value = ""
                 n = ""
             }
@@ -86,7 +86,7 @@ function Yeu() {
         $("#divResult2").html("<p>Anh cũng yêu em nhiều lắm<img src='img/1.gif'/></p></br>");
         $("#divResult2").fadeIn(2000, function() {
             $("#divResult3").fadeOut(0);
-            $("#divResult3").html("<p>Dù sau này có như thế nào hãy luôn bên anh và yêu anh như thế này em nhé! <img src='img/1.gif'/></p></br>");
+            $("#divResult3").html("<p>Dù sau này có như thế nào hãy luôn bên anh và yêu anh em nhé! I luv u chụt chụt <img src='img/1.gif'/></p></br>");
             $("#divResult3").fadeIn(2000);
         });
     });
